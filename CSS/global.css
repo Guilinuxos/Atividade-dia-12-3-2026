@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #F8FAFC;
+
+    --cor-secundaria: #F1F5F9;
+
+    --cor-titulo: #0F172A;
+
+    --cor-subtiulo: #64748B;
+
+    --cor-texto-pequeno: #475569;
+
+    --cor-texto-ultra-pequeno: #94A3B8;
+
+    --cor-barra: #E2E8F0;
+}
