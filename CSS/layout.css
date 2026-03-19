@@ -43,27 +43,89 @@
         lADO DIREITO
     ====================*/
 .direita{
+    display: flex;
+
+
     width: 1024px;
     height: 1024px;
     background-color: var(--cor-principal);
 
 }
 
-.header{
+.perfil{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-content: space-between;
 
-    max-width: 1024px;
-    max-height: 64px;
+    margin-top: 11.5px;
 
-    background-color: var(--cor-principal);
+    width: 276.35px;
+    height: 40px;
+
+
 
 
 }
 
+.sino-perfil{
+    color: var(--cor-subtiulo);
+    margin-right: 0;
+
+}
+
+.user-perfil{
+    display: flex;
+
+    justify-content: space-around;
+
+    padding-left: 8px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+
+.nome-usuario{
+    font-family: 'Inter';
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cargo-usuario{
+    font-family: 'Inter';
+
+    font-size: 12px;
+    font-weight: 400;
+
+    color: var(--cor-subtiulo);
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1024px;
+    height: 64px;
+
+    background-color: var(--cor-principal);
+
+    border-color: var(--cor-barra);
+    border-width: 1px;
+}
+
 .nav{
     display: flex;
+    align-items: center;
+
+
     gap: 10px;
 
     width: 448px;
@@ -78,9 +140,16 @@
     background-color: var(--cor-secundaria);
 }
 
+.lupa-nav{
+    color: var(--cor-texto-ultra-pequeno);
+
+}
+
 .barra-ereta{
-    max-width: 1px;
-    max-height: 32px;
+    width: 1px;
+    height: 32px;
+
+    margin: 0 16px;
 
     background-color: var(--cor-barra);
 }
@@ -101,9 +170,18 @@
     color: var(--cor-subtiulo);
 }
 
+/*IMAGENS*/
+.prof-pic{
+    background-image: url(/Assets/User_profile.png);
 
+    width: 40px;
+    height: 40px;
 
+    border-radius: 50%;
 
+    background-size: cover;
+    background-position: center;
 
+    margin-right: 32px;
 
-
+}
